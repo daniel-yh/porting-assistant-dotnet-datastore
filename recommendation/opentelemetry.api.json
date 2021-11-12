@@ -1,0 +1,45 @@
+{
+    "Name": "OpenTelemetry.Api",
+    "Version": "1.2.0-beta1",
+    "Packages": [
+        {
+            "Name": "OpenTelemetry.Api",
+            "Type": "Nuget"
+        }
+    ],
+    "Recommendations": [
+        {
+            "Type": "Namespace",
+            "Name": "OpenTelemetry.Api",
+            "Value": "OpenTelemetry.Api",
+            "KeyType": "Name",
+            "ContainingType": "",
+            "RecommendedActions": [
+                {
+                    "Source": "External",
+                    "Preferred": "Yes",
+                    "TargetFrameworks": [
+                        {
+                            "Name": "netcoreapp3.1",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        }
+                    ],
+                    "Description": "",
+                    "Actions": [
+                        {
+                            "Name": "AddPackage",
+                            "Type": "Package",
+                            "Value": "Azure.ImageOptimizer",
+                            "Description": "test2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
