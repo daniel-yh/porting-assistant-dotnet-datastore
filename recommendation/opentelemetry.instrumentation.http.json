@@ -1,0 +1,45 @@
+{
+    "Name": "OpenTelemetry.Instrumentation.Http",
+    "Version": "1.0.0-rc8",
+    "Packages": [
+        {
+            "Name": "OpenTelemetry.Instrumentation.Http",
+            "Type": "Nuget"
+        }
+    ],
+    "Recommendations": [
+        {
+            "Type": "Namespace",
+            "Name": "OpenTelemetry.Instrumentation.Http",
+            "Value": "OpenTelemetry.Instrumentation.Http",
+            "KeyType": "Name",
+            "ContainingType": "",
+            "RecommendedActions": [
+                {
+                    "Source": "External",
+                    "Preferred": "Yes",
+                    "TargetFrameworks": [
+                        {
+                            "Name": "netcoreapp3.1",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        }
+                    ],
+                    "Description": "",
+                    "Actions": [
+                        {
+                            "Name": "AddPackage",
+                            "Type": "Package",
+                            "Value": "Azure.ImageOptimizer",
+                            "Description": "test alarm"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
